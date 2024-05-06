@@ -1,0 +1,21 @@
+# Images and labels direcotry should be relative to train.py
+TRAIN_DIR_IMAGES: 'data/Object_Detection/pascal/train'
+TRAIN_DIR_LABELS: 'data/Object_Detection/pascal/train'
+VALID_DIR_IMAGES: 'data/Object_Detection/pascal/valid'
+VALID_DIR_LABELS: 'data/Object_Detection/pascal/valid'
+
+# Class names.
+CLASSES: [
+    '__background__',
+    'Cell',
+    'Cell-Multi',
+    'No-Anomaly',
+    'Shadowing',
+    'Unclassified',
+]
+
+# Number of classes (object classes + 1 for background class in Faster RCNN).
+NC: 6
+
+# Whether to save the predictions of the validation set while training.
+SAVE_VALID_PREDICTION_IMAGES: True
